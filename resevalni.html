@@ -5,8 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css" />
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css" />
   <!-- google fonts -->
@@ -24,14 +29,18 @@
       Creative Commons (Attribution 3.0 Unported);
       https://www.iconfinder.com/webalys
     -->
-  <header>
+  <header id="top">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light" id="topHigh">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
         <a href="index.html" class="navbar-brand">
           <img src="img/kvrpk_logo.png" alt="brand logo" class="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-          <i class="fas fa-bars"></i>
+          <div class="toggler-btn">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
         </button>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="navbar-nav mx-auto">
@@ -42,7 +51,7 @@
               <a href="index.html#about" class="nav-link">Klub</a>
             </li>
             <li class="nav-item mx-2 ">
-              <a href="index.html#wedo" class="nav-link">Novice</a>
+              <a href="index.html#wedo" class="nav-link">Aktivnosti</a>
             </li>
             <li class="nav-item mx-2 nav-active ">
               <a href="#resevalni-psi" class="nav-link">Reševalni pes</a>
@@ -51,19 +60,22 @@
               <a href="index.html#obedience" class="nav-link">Šolanje</a>
             </li>
             <li class="nav-item mx-2 ">
-              <a href="store.html" class="nav-link">Galerija</a>
+              <a href="index.html#news" class="nav-link">Novice</a>
+            </li>
+            <li class="nav-item mx-2 ">
+              <a href="index.html#gallery" class="nav-link">Galerija</a>
             </li>
           </ul>
         </div>
-        <div class="navbar-icons d-none d-lg-flex">
+      <!--   <div class="navbar-icons d-none d-lg-flex">
    
-        </div>
+        </div> -->
       </nav>
       <!-- END OF NAVBAR -->
     <!-- BANNER -->
-    <div class="banner-products d-flex text-center align-items-center  pl-3 pl-lg-5">
+    <div class="banner-solanje d-flex text-center pl-3 pl-lg-5">
       <div>
-        <h1 class="text-capitalize mb-5 text-slanted display-4 welcome2">
+        <h1 class="text-capitalize mb-5 text-slanted display-4 welcome3">
           reševalni psi
         </h1>
         
@@ -208,7 +220,7 @@
            </div>
            <!-- end of footer icons-->
 
-           <h4 class="text-muted text-capitalize w-75 mx-auto text-center">klub vodnikov reševalnih psov Kranj</h4>
+           <h4 class="text-capitalize w-75 mx-auto text-center">klub vodnikov reševalnih psov Kranj</h4>
 
            <div class="footer-contact mt-5 d-flex justify-content-around flex-wrap">
              <!--single contact-->
@@ -255,109 +267,15 @@
          </div>
        </div>
      </div>
+    <a href="#top" id="back-to-top" class="p-1"><i class="fas fa-arrow-up primary-color fa-3x"></i></a>
    </footer>
   <!-- modal-->
 
 
 
 
-    <!-- modal-->
-    <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <!-- modal header-->
-          <div class="modal-header">
-            <h5 class="modal-title text-capitalize">product info</h5>
-            <button class="close" type="button" data-dismiss="modal">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <!-- end of modal header-->
-          <!-- modal body-->
-          <div class="modal-body">
-            <div class="row">
-              <div class="col text-center">
-                <img src="img/img-products/product-1.png" class="img-fluid" alt="">
-                <!-- ratings stars-->
-                <div class="ratings">
-                  <span class="rating-icon">
-                    <i class="fas fa-star"></i>
-                  </span>
-                  <span class="rating-icon">
-                    <i class="fas fa-star"></i>
-                  </span>
-                  <span class="rating-icon">
-                    <i class="fas fa-star"></i>
-                  </span>
-                  <span class="rating-icon">
-                    <i class="fas fa-star"></i>
-                  </span>
-                  <span class="rating-icon">
-                    <i class="far fa-star"></i>
-                  </span>
-                  <span class="text-capitalize">(23 customer review)</span>
-                </div>
+   
 
-                <!-- end of ratings stars-->
-
-                <!-- PRODUCT DESCRIPTION-->
-                <h2 class="text-uppercase my-2">
-                  premium office armchair
-                </h2>
-                <h2>€10.00 - €200.00</h2>
-                <p class="lead text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-                  necessitatibus
-                  magni nulla autem quisquam officia quibusdam nobis.</p>
-                <!-- color -->
-                <h5 class="text-uppercase">
-                  color:
-                  <span class="d-inline-block products-color products-color-black mr-2"></span>
-                  <span class="d-inline-block products-color products-color-red mr-2"></span>
-                  <span class="d-inline-block products-color products-color-blue mr-2"></span>
-                  <span class="d-inline-block products-color products-color-yellow mr-2"></span>
-                </h5>
-                <!-- end of colors-->
-                <!-- sizes-->
-                <h5 class="text-uppercase">
-                  sizes:
-                  <span class="mx-2">xs</span>
-                  <span class="mx-2">s</span>
-                  <span class="mx-2">m</span>
-                  <span class="mx-2">l</span>
-                  <span class="mx-2">xl</span>
-                </h5>
-                <div class="d-flex flex-wrap">
-                  <!-- cart buttons -->
-                  <div class="d-flex my-2">
-                    <span class="btn btn-black mx-1"> - </span>
-                    <span class="btn btn-black mx-1"> 4 </span>
-                    <span class="btn btn-black mx-1"> + </span>
-                  </div>
-                  <button class="btn btn-black my-2 mx-2">
-                    wishlist
-                  </button>
-                  <button class="btn btn-yellow my-2 mx-2">
-                    add to cart
-                  </button>
-
-                </div>
-                <!-- end of sizes-->
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">close modal</button>
-          </div>
-          </section>
-          <!-- END OF SINGLE PRODUCT -->
-        </div>
-
-      </div>
-
-
-
-    </div>
-    <!-- end of modal body-->
 
 
  <!-- jquery -->
@@ -367,7 +285,7 @@
  <!-- Magnific Popup core JS file -->
  <script src="magnific-popup/jquery.magnific-popup.js"></script>
  <!-- script js -->
- <script src="js/app.js"></script>
+ <script src="js/appOne.js"></script>
 </body>
 
 </html>

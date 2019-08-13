@@ -1,0 +1,100 @@
+{
+  "news": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Člani kluba prejemniki priznanja CZ",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Iskalna akcija Jesenice",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Trening - ruševina Tritol",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "20. MOL mednarodna vaja ekip vodnikov reševalnih psov",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Mednarodni izpit Kluba vodnikov reševalnih psov Kranj",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Obvestilo - pasja šola",
+        "besedilo": "Spoštovani, Obveščamo vse zainteresirane kandidate za šolanje vaših kosmatincev v naši pasji šoli, da bo zaradi daljše odsotnosti inštruktorice, le ta ponovno pričela v jeseni 2019. Zahvaljujemo se vsem in vas vabimo da se nam ponovno pridružite v novem pasjem šolskem letu 2019!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/aboutImg/about-6.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
