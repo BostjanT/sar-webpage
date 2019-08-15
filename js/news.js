@@ -1,6 +1,6 @@
 // varibales
 
-const displayNews = document.querySelector(".video-slides");
+const displayNews = document.querySelector(".video-slides", "owl-carousel");
 
 // getting the products
 class News {
@@ -12,10 +12,10 @@ class News {
       let news = data.news;
 
       news = news.map(item => {
-        const title = item.fields;
+        const { title, besedilo } = item.fields;
 
         const image = item.fields.image.fields.file.url;
-        return { title, image };
+        return { title, besedilo, image };
       });
       return news;
     } catch (error) {
@@ -29,25 +29,28 @@ class UI {
     let result = "";
     news.forEach(news => {
       result += `
+      
 <!-- Single News Area -->
             <div class="single-blog-post style-3">
               <!-- Blog Thumbnail -->
               <div class="blog-thumbnail">
                 <a href="#"><img src="${news.image}" alt=""></a>
-               
+              
               </div>
 
               <!-- Blog Content -->
               <div class="blog-content">
                 <span class="post-date">June 20, 2018</span>
-                <p class="post-title"${news.title}</p>
+                <p class="post-title">${news.title}</p>
+                <p class="post-details-content text-white">${news.besedilo}</p>
                 
               </div>
             </div>
 
 
+
     
-     `;
+    `;
     });
     displayNews.innerHTML = result;
   }
