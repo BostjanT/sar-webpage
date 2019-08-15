@@ -1,17 +1,18 @@
 // varibales
 
-const displayNews = document.getElementById("showNews");
+const displayNews = document.querySelector(".video-slides");
 
 // getting the products
 class News {
-  async getNewss() {
+  async getNews() {
     try {
       let result = await fetch("news.json");
       let data = await result.json();
 
-      let news = data.items;
+      let news = data.news;
+
       news = news.map(item => {
-        const { title } = item.fields;
+        const title = item.fields;
 
         const image = item.fields.image.fields.file.url;
         return { title, image };
@@ -48,7 +49,7 @@ class UI {
     
      `;
     });
-    productsDOM.innerHTML = result;
+    displayNews.innerHTML = result;
   }
 }
 
