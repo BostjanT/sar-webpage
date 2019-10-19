@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="css/all.css" />
   <!-- Newsbox Master css file -->
   <link rel="stylesheet" href="newsbox-master/style.css">
+  <!-- NEWS CAROUSEL -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css" />
   <title>Klub vodnikov reševalnih psov Kranj</title>
@@ -233,133 +236,36 @@
   </section>
   <!-- end of what we do-->
 
-<!-- ##### Video Area Start ##### -->
-<section class="video-area bg-img bg-overlay bg-fixed" style="background-image: url(img/aboutImg/about-6.jpg);">
-  
-
-  <!-- Video Slideshow -->
-  <div class="video-slideshow py-5" id="news">
-    <div class="container">
-      <!-- section title -->
-      <div class="row mb-1">
-        <div class="col d-flex flex-wrap text-uppercase justify-content-center">
-          <h1 class="font-weight-bold align-self-center mx-1 text-white">novice</h1>
-          
-        </div>
-      </div>
-      <!-- end of section title -->
-      <div class="row">
-        <div class="col-12">
-          <!-- Video Slides -->
-          <div class="video-slides owl-carousel" id="showNews">
-<!-- 
-            <!-- Single News Area -->
-          <!--   <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-       <!--        <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-4.jpg" alt=""></a>
-               
-              </div> -->
-
-              <!-- Blog Content -->
-    <!--           <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">Iskalna akcija Jesenice</p>
-                
-              </div>
-            </div> -->
-
-            <!-- Single News Area -->
-           <!--  <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-       <!--        <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-1.jpg" alt=""></a>
-                
-              </div> -->
-
-              <!-- Blog Content -->
-        <!--       <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">Mednarodni izpit Kluba vodnikov reševalnih psov Kranj</p>
-               
-              </div>
-            </div> -->
-
-            <!-- Single News Area -->
-          <!--   <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-       <!--        <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-2.jpg" alt=""></a>
-              
-              </div> -->
-
-              <!-- Blog Content -->
-        <!--       <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">Obvestilo - pasja šola</p>
-                
-              </div>
-            </div> -->
-
-            <!-- Single News Area -->
-          <!--   <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-     <!--          <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-3.jpg" alt=""></a>
-                
-              </div> -->
-
-              <!-- Blog Content -->
-       <!--        <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">20. MOL mendarodna vaja ekip vodnikov reševalnih psov</p>
-              </div>
-            </div> -->
-
-            <!-- Single News Area -->
-         <!--    <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-       <!--        <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-4.jpg" alt=""></a>
-                
-              </div> -->
-
-              <!-- Blog Content -->
-       <!--        <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">Trening ruševina Tritolwerk 2018</p>
-              </div>
-            </div> -->
-
-            <!-- Single News Area -->
-          <!--   <div class="single-blog-post style-3"> -->
-              <!-- Blog Thumbnail -->
-         <!--      <div class="blog-thumbnail">
-                <a href="#"><img src="img/aboutImg/about-5.jpg" alt=""></a>
-                
-              </div> -->
-
-              <!-- Blog Content -->
-        <!--       <div class="blog-content">
-                <span class="post-date">June 20, 2018</span>
-                <p class="post-title">Člani kluba med prejemniki priznanj CZ</p>
-              </div>
-            </div> --> 
-
-          </div>
-        </div>
-      </div>
+<!-- NOVICE -->
+<section class="news" id="news">
+  <div class="row mb-5">
+    <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+      <h1 class="font-weight-bold align-self-center mx-1">novice</h1>
     </div>
+  </div> 
+  
+  <!--single news-->
+  <div class="news-center">
+    <!-- <article class="novica">
+      <div class="img-container">
+        <img 
+        src="./img/aboutImg/about-1.jpg" 
+        alt="news image"
+        class="news-img">
+        <button class="news-btn" data-id="1">
+        <a href="news.html">
+          <i class="fas fa-book-reader">Preberite več</i>
+        </a>  
+        </button>
+      </div>
+      <h3 class="naslov">Izjemna novica</h3>
+      <p class="tekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, facere.</p>
+    </article> -->
+
+   
   </div>
 </section>
-<!-- ##### Video Area End ##### -->
-
-
-
-
-
-
-
+<!-- NOVICE END -->
 
   <!--šolanje-->
   <!-- featured -->
@@ -646,6 +552,8 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- Magnific Popup core JS file -->
   <script src="magnific-popup/jquery.magnific-popup.js"></script>
+  <!--CONTENTFULL API-->
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
     <!-- script js -->
   <script src="js/appOne.js"></script>
   <!-- Popper js -->
@@ -654,8 +562,12 @@
   <script src="newsbox-master/js/plugins/plugins.js"></script>
   <!-- Active js -->
  <script src="newsbox-master/js/active.js"></script>
- <!--Display News-->
- <script src="js/news.js"></script>
+  <!--Display News-->
+  <script src="js/news.js"></script>
+  <!-- OWL Carousel -->
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  
 </body>
 
 </html>
