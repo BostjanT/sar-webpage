@@ -54,21 +54,21 @@ class UI {
     let result = "";
     news.forEach(news => {
       result += `
-         <article class="novica">
+        <article class="novica">
       <div class="img-container">
         <img 
         src="${news.image}" 
         alt="news image"
         class="news-img">
         <button class="news-btn" data-id="${news.id}">
-        <a href="news.html?id=1">
+        <a href="news.html?id=${news.id}">
           <i class="fas fa-book-reader">
           <span class="space">Preberite več<span></i>
-         </a> 
+        </a> 
         </button>
       </div>
       <h3 class="naslov font-weight-bold">${news.title}</h3>
-     
+    
     </article>
     
 

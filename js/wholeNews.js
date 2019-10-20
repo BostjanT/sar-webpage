@@ -1,6 +1,7 @@
+/* import * as contentful from 'contentful';
 import {
   documentToHtmlString
-} from "@contentful/rich-text-html-renderer";
+} from "@contentful/rich-text-html-renderer"; */
 
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
@@ -67,11 +68,7 @@ class UI {
                ${news.title}
               </div>
               <div>
-              < p class = "post-content mb-5" >
-                 ${
-                  documentToHtmlString(news.besedilo)
-                } <
-                /p>
+              <p class="post-content mb-5">${news.besedilo}</p>
               </div>
             </div>
         
